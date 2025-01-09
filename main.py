@@ -267,7 +267,7 @@ def cargar_comprobante_desde_xml(ruta_archivo_xml):
                 traslado = Traslado(base,impuesto,tipo_factor,tasa_ocuota,importe)
                 #traslados_list.append(traslado)
                 impuesto_comprobante = Impuestos(total_impuestos_trasladodos)
-                impuesto.traslados = traslado #traslados_list
+                impuesto_comprobante.traslados = traslado #traslados_list
 
             comprobante.impuestos = impuesto_comprobante
 
