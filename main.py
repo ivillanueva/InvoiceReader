@@ -340,7 +340,7 @@ def contar_archivos_xml(carpeta):
 ############ MAIN CODE ###################
 ##########################################
 root = tk.Tk()
-root.title("Invoices Reader V1.0.4")
+root.title("Invoices Reader V1.0.5")
 root.iconbitmap("common/invoice.ico")
 root.resizable(False, False)
 style = ttk.Style(root)
